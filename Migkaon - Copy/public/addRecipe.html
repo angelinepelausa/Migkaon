@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+    <link rel="stylesheet" href="addRecipe.css">
+</head>
+<body>
+    <div class="top-rectangle"></div>
+    <div class="logo-container">
+        <a href="index.html"><img src="assets/logo.png" alt="Logo" class="logo"></a>
+    </div>
+
+    <div class="edit-profile-rectangle">
+        <div class="title">Add Recipe</div>
+        <form id="recipeForm">
+            <div class="recipe-name-label">Recipe Name</div>
+            <div class="input-picture-container">
+                <input type="text" id="recipeName" name="recipeName" class="input-rectangle">
+                <div class="add-picture-rectangle">
+                    <a href="#" id="addPhotoLink"><img src="assets/add_photo.png" alt="Add Photo" class="add-photo"></a>
+                </div>
+            </div>
+            <div class="ingredients-label">Ingredients</div>
+            <input type="text" id="ingredients" name="ingredients" class="ingredients-rectangle">
+            <div class="instructions-label">Instructions</div>
+            <input type="text" id="instructions" name="instructions" class="instructions-rectangle">
+            <button type="submit" class="add-button">Add</button>
+        </form>
+    </div>
+
+    <div class="bottom-rectangle">
+        <img src="assets/migkaon.png" alt="migkaon" class="migkaon">
+        <img src="assets/socials.png" alt="socials" class="socials">
+    </div>
+
+    <script src="addRecipe.js"></script>
+</body>
+</html>
